@@ -1,13 +1,14 @@
-require_relative 'lib/board.rb'
-require_relative 'lib/player.rb'
-require_relative 'lib/game.rb'
-require_relative 'lib/board_case.rb'
-require 'pry'
+require_relative 'lib/board_case'
+require_relative 'lib/board'
+require_relative 'lib/player'
+require_relative 'lib/game'
 
 
-Game.new
 
-binding.pry
+Game.new.launch_game
+
+
+
 
 
 

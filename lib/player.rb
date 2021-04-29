@@ -1,10 +1,9 @@
-
-
 class Player
-  attr_reader :name, :symbol
+  attr_accessor :firstname, :type
 
-  def initialize(name, symbol)
-    @name = name
-    @symbol = symbol
+  def initialize(firstname, type)
+    @firstname = firstname
+    @type = type
+    puts "#{@firstname}, tu joueras avec les #{@type}"
   end
 end

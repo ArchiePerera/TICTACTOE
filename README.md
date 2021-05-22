@@ -1,3 +1,3 @@
-## TIC TAC TOE in RUBY
+# TIC TAC TOE in RUBY
 
-## Written by archie for [the hacking project](https://www.thehackingproject.org/)
+Written by archie for [the hacking project](https://www.thehackingproject.org/)
